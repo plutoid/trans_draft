@@ -5,14 +5,18 @@ Write Dumb Code
 ======
 The best way you can contribute to an open source project is to remove lines of code from it. We should endeavor to write code that a novice programmer can easily understand without explanation or that a maintainer can understand without significant time investment.
 
-为开源项目作贡献最好是能为他精简代码. 我们写出来的代码新手应该能容易的去理解, 亦或为了后来的维护者不需要耗费过多的精力.
+为开源项目作贡献最好是能为他精简代码. 我们写出来的代码, 对于新手程序员来说应该无需注释就能容易的理解, 让后来的维护者也不需要耗费过多的精力.
 
 As students we attempt increasingly challenging problems with increasingly sophisticated technologies. We first learn loops, then functions, then classes, etc.. We are praised as we ascend this hierarchy, writing longer programs with more advanced technology. We learn that experienced programmers use monads while new programmers use for loops.
+
+首先我们学习循环，然后是函数类，等等。 用更高级的技术写更长的程序。 我们会发现老司机程序员用 mondsmonds而新手们用循环。
 
 Then we graduate and find a job or open source project to work on with others. We search for something that we can add, and implement a solution pridefully, using the all the tricks that we learned in school.
 
 Ah ha! I can extend this project to do X! And I can use inheritance here! Excellent!
+
 哈哈, 我能扩展这个项目到如何如何, 我这里能用继承, 完美!
+
 We implement this feature and feel accomplished, and with good reason. Programming in real systems is no small accomplishment. This was certainly my experience. I was excited to write code and proud that I could show off all of the things that I knew how to do to the world. As evidence of my historical love of programming technology, here is a [linear algebra language][1] built with a another meta-programming language. Notice that no one has touched this code in several years.
 我们实现了功能并有充分的理由觉得做到了.
 
