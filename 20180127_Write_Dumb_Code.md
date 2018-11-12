@@ -25,12 +25,14 @@ We implement this feature and feel accomplished, and with good reason. Programmi
 
 However after maintaining code a bit more I now think somewhat differently.
 
-然而在维护代码一段时间后,我反而觉得并非如此.
+然而在维护代码一段时间后,我觉得并非如此.
 
   1. We should not seek to build software. Software is the currency that we pay to solve problems, which is our actual goal. We should endeavor to build as little software as possible to solve our problems.
   2. We should use technologies that are as simple as possible, so that as many people as possible can use and extend them without needing to understand our advanced techniques. We should use advanced techniques only when we are not smart enough to figure out how to use more common techniques.
 
-1. 我们不应该去探求如何构建软件. 软件是我们为解决问题所付出的货币, 是我们实在的目的.
+1. 我们不应去刻意探求如何构建软件. 软件是我们为解决问题所付出的代价, 那才是我们真实的目的. 我们应努力为了解决问题而构建较小的软件。
+
+2. 我们应使用尽可能简单的技术，那么更多的人就越可能会使用，并且无需理解我们所知的高级技术就能扩展软件的功能。当然，在我们不知道如何使用简单技术去实现时，我们也可以使用高级技术。
 
 Neither of these points are novel. Most people I meet agree with them to some extent, but somehow we forget them when we go to contribute to a new project. The instinct to contribute by building and to demonstrate sophistication often take over.
 
