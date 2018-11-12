@@ -13,6 +13,8 @@ As students we attempt increasingly challenging problems with increasingly sophi
 
 Then we graduate and find a job or open source project to work on with others. We search for something that we can add, and implement a solution pridefully, using the all the tricks that we learned in school.
 
+之后我们毕业找了工作，或者和他人合作开源项目。我们用在学校里学到的各种炫技寻求并骄傲地给出实现的解决方案。
+
 Ah ha! I can extend this project to do X! And I can use inheritance here! Excellent!
 
 哈哈, 我能扩展这个项目到如何如何, 我这里能用继承, 完美!
