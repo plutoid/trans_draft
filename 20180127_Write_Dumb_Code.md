@@ -20,9 +20,6 @@ Ah ha! I can extend this project to do X! And I can use inheritance here! Excell
 哈哈, 我能扩展这个项目并实现某某功能啦, 我这里能用继承啦, 我太聪明啦！
 
 
-
-
-
 We implement this feature and feel accomplished, and with good reason. Programming in real systems is no small accomplishment. This was certainly my experience. I was excited to write code and proud that I could show off all of the things that I knew how to do to the world. As evidence of my historical love of programming technology, here is a [linear algebra language][1] built with a another meta-programming language. Notice that no one has touched this code in several years.
 
 我们以充分的理由实现了功能并并觉得自己做到了.  这当然是我个人的经验。 以前我很高兴写代码，并骄傲地向世界展示我所知道的事情。 有例为证，，作为对某种编程技术的偏爱，这段[一句话algebra代码] 嵌入了另一段元语言代码。请注意多年以来一直没人碰它。
@@ -76,7 +73,9 @@ If you are a good programmer then you don't need to demonstrate that you know co
 
 但要保持节制
 
-That being said, over-adherence to the "build things with simple tools" dogma can be counter productive. Often a recursive solution can be much simpler than a for-loop solution and often times using a Class or a Monad is the right approach. But we should be mindful when using these technologies that we are building for ourseourselvesourseourselveslveslves ooouroourururooouroourourooururur own system; a system with which others have had no experience.
+That being said, over-adherence to the "build things with simple tools" dogma can be counter productive. Often a recursive solution can be much simpler than a for-loop solution and often times using a Class or a Monad is the right approach. But we should be mindful when using these technologies that we are building for ourselves own system; a system with which others have had no experience.
+
+话虽如此， 过于遵循 “用简单的工具去构建”的教条也会降低生产力。经常地，用递归会比用循环解决问题更简单，用类或 monad 才是正确的途径。但是我们因该心想着用这些技术构建我们自己的系统，一个别人没有相关经验的系统。。。。
 
 
 --------------------------------------------------------------------------------
@@ -84,7 +83,7 @@ That being said, over-adherence to the "build things with simple tools" dogma ca
 via: http://matthewrocklin.com/blog/work/2018/01/27/write-dumb-code
 
 作者：[Matthew Rocklin][a]
-译者：[plutoid](https://github.com/plutoid) t
+译者：[plutoid](https://github.com/plutoid) 
 校对：[校对者ID](https://github.com/校对者ID)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
