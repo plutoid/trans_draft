@@ -1,15 +1,15 @@
- Translating!
-
 Write Dumb Code
+
 写直白的代码
+
 ======
-The best way you can contribute to an open source project is to remove lines of code from it. We should endeavor to write code that a novice programmer can easilyeasily understand without explanation or that a maintainer can understand without significantsignisignificantsignificantsignificantsignificantficantsignificantsignificant titimetitime
+The best way you can contribute to an open source project is to remove lines of code from it. We should endeavor to write code that a novice programmer can easilyeasily understand without explanation or that a maintainer can understand without significant time
 
 为开源项目作贡献最好是能为他精简代码. 我们写出来的代码, 对于新手程序员来说应该无需注释就能容易的理解, 让后来的维护者也不需要耗费过多的精力.
 
 As students we attempt increasingly challenging problems with increasingly sophisticated technologies. We first learn loops, then functions, then classes, etc.. We are praised as we ascend this hierarchy, writing longer programs with more advanced technology. We learn that experienced programmers use monads while new programmers use for loops.
 
-作为学生，我们会更多地用复杂巧妙的技术去挑战新遇到的难题。首先我们然后是函数类，等等。 用更高级的技术写更长的程序。 我们会发现老司机程序员用 monds 而新手们用循环。
+作为学生，我们会更多地用复杂巧妙的技术去挑战新遇到的难题。首先我们会学习循环，然后是函数啊，类啊，等等。 当我们到达一定高的程度，能用更高级的技术写更长的程序，我们会因此受到称赞。 此刻我们发现老司机们用 monads 而新手们用循环。
 
 Then we graduate and find a job or open source project to work on with others. We search for something that we can add, and implement a solution pridefully, using the all the tricks that we learned in school.
 
@@ -18,6 +18,10 @@ Then we graduate and find a job or open source project to work on with others. W
 Ah ha! I can extend this project to do X! And I can use inheritance here! Excellent!
 
 哈哈, 我能扩展这个项目并实现某某功能啦, 我这里能用继承啦, 我太聪明啦！
+
+
+
+
 
 We implement this feature and feel accomplished, and with good reason. Programming in real systems is no small accomplishment. This was certainly my experience. I was excited to write code and proud that I could show off all of the things that I knew how to do to the world. As evidence of my historical love of programming technology, here is a [linear algebra language][1] built with a another meta-programming language. Notice that no one has touched this code in several years.
 
@@ -58,7 +62,7 @@ If you are a good programmer then you don't need to demonstrate that you know co
 如果你是个好的程序员, 你不需要证明你知道很多炫技. 相应的, 你可以通过用一个简单的方法解决一个问题来显示你的价值, 并激发你的团队在未来去完善它.
 ### But moderation, of course
 但要保持节制
-That being said, over-adherence to the "build things with simple tools" dogma can be counter productive. Often a recursive solution can be much simpler than a for-loop solution and often times using a Class or a Monad is the right approach. But we should be mindful when using these technologies that we are building for ourselves our own system; a system with which others have had no experience.
+That being said, over-adherence to the "build things with simple tools" dogma can be counter productive. Often a recursive solution can be much simpler than a for-loop solution and often times using a Class or a Monad is the right approach. But we should be mindful when using these technologies that we are building for ourseourselvesourseourselveslveslves ooouroourururooouroourourooururur own system; a system with which others have had no experience.
 
 
 --------------------------------------------------------------------------------
