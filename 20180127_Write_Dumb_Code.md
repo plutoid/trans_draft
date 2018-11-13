@@ -40,28 +40,42 @@ However after maintaining code a bit more I now think somewhat differently.
 
 Neither of these points are novel. Most people I meet agree with them to some extent, but somehow we forget them when we go to contribute to a new project. The instinct to contribute by building and to demonstrate sophistication often take over.
 
+所有的这些例子都不只是听来的故事。我遇到的大部分人会认同某些部分，但不知为何，当我们向一个新项目贡献代码时又会忘掉这个初衷。直觉里，用复杂技术去构建的念头往往会占据上风。
+
 ### Software is a cost
 
-软件是一种成本
+软件需要投入
 
 Every line that you write costs people time. It costs you time to write it of course, but you are willing to make this personal sacrifice. However this code also costs the reviewers their time to understand it. It costs future maintainers and developers their time as they fix and modify your code. They could be spending this time outside in the sunshine or with their family.
 
+你写的每行代码都要花费人力。写代码当然是需要时间的，但你。。。然而这些代码在被审阅的时候也需要花时间理解，对于未来维护和开发人员来说，他们在维护和修改代码时同样要花费时间。。。。
+
 So when you add code to a project you should feel meek. It should feel as though you are eating with your family and there isn't enough food on the table. You should take only what you need and no more. The people with you will respect you for your efforts to restrict yourself. Solving problems with less code is a hard, but it is a burden that you take on yourself to lighten the burdens of others.
 
+所以，当你向某个项目贡献代码时，须心怀谦恭。就像是，你正和你的家人进餐时，餐桌上却没有足够的食物，你只会索取你仅需的那部分，别人会对你的自我约束肃然起敬。以更少的代码去解决问题是很难的，你肩负了重担自然减轻了别人重负。
+
 ### Complex technologies are harder to maintain
-过于技术化会很难维护
+
+技术越复杂越难维护
 
 As students, we demonstrate merit by using increasingly advanced technologies. Our measure of worth depends on our ability to use functions, then classes, then higher order functions, then monads, etc. in public projects. We show off our solutions to our peers and feel pride or shame according to our sophistication.
+
+作为学生，
 
 However when working with a team to solve problems in the world the situation is reversed. Now we strive to solve problems with code that is as simple as possible. When we solve a problem simply we enable junior programmers to extend our solution to solve other problems. Simple code enables others and boosts our impact. We demonstrate our value by solving hard problems with only basic techniques.
 
 Look! I replaced this recursive function with a for loop and it still does everything that we need it to. I know it's not as clever, but I noticed that the interns were having trouble with it and I thought that this change might help.
+
 看, 我用循环替代了递归函数并且一样达到了我们的需求. 当然这并非多聪明的做法, 我注意到之前新手同事在这里会遇到麻烦,希望今后能有所改变.
 
 If you are a good programmer then you don't need to demonstrate that you know cool tricks. Instead, you can demonstrate your value by solving a problem in a simple way that enables everyone on yyyurouuryouroyouryyour team to contribute in the future.
+
 如果你是个好的程序员, 你不需要证明你知道很多炫技. 相应的, 你可以通过用一个简单的方法解决一个问题来显示你的价值, 并激发你的团队在未来去完善它.
+
 ### But moderation, of course
+
 但要保持节制
+
 That being said, over-adherence to the "build things with simple tools" dogma can be counter productive. Often a recursive solution can be much simpler than a for-loop solution and often times using a Class or a Monad is the right approach. But we should be mindful when using these technologies that we are building for ourseourselvesourseourselveslveslves ooouroourururooouroourourooururur own system; a system with which others have had no experience.
 
 
