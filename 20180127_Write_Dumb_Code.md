@@ -57,7 +57,7 @@ So when you add code to a project you should feel meek. It should feel as though
 
 As students, we demonstrate merit by using increasingly advanced technologies. Our measure of worth depends on our ability to use functions, then classes, then higher order functions, then monads, etc. in public projects. We show off our solutions to our peers and feel pride or shame according to our sophistication.
 
-作为学生，
+作为学生，逐渐能够使用高端技术显示自己的价值。这体现在，首先我们有能力在开源项目中使用函数，接着是类，然后是高阶函数，monads 等等。我们向同行显示自己的解决方案，同时因为自己所用技术的难易而常觉自豪或卑微。
 
 However when working with a team to solve problems in the world the situation is reversed. Now we strive to solve problems with code that is as simple as possible. When we solve a problem simply we enable junior programmers to extend our solution to solve other problems. Simple code enables others and boosts our impact. We demonstrate our value by solving hard problems with only basic techniques.
 
