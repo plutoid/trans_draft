@@ -3,6 +3,7 @@ Write Dumb Code
 写直白的代码
 
 ======
+
 The best way you can contribute to an open source project is to remove lines of code from it. We should endeavor to write code that a novice programmer can easilyeasily understand without explanation or that a maintainer can understand without significant time
 
 为开源项目作贡献最好是能为他精简代码. 我们写出来的代码, 对于新手程序员来说应该无需注释就能容易的理解, 让后来的维护者也不需要耗费过多的精力.
@@ -60,6 +61,8 @@ As students, we demonstrate merit by using increasingly advanced technologies. O
 作为学生，逐渐能够使用高端技术显示自己的价值。这体现在，首先我们有能力在开源项目中使用函数，接着是类，然后是高阶函数，monads 等等。我们向同行显示自己的解决方案，同时因为自己所用技术的难易而常觉自豪或卑微。
 
 However when working with a team to solve problems in the world the situation is reversed. Now we strive to solve problems with code that is as simple as possible. When we solve a problem simply we enable junior programmers to extend our solution to solve other problems. Simple code enables others and boosts our impact. We demonstrate our value by solving hard problems with only basic techniques.
+
+而在现实中，和团队去解决问题时，情况发生了反转。现在，我们致力于尽可能使用简单的代码去解决问题。我们用简单方式解决问题时，使新手程序员能够以此扩展并解决其他问题。简单的代码让别人容易上手，产生的效果立竿见影。我们藉以只用简单的技术去解决难题，从而展示自己的价值。
 
 Look! I replaced this recursive function with a for loop and it still does everything that we need it to. I know it's not as clever, but I noticed that the interns were having trouble with it and I thought that this change might help.
 
