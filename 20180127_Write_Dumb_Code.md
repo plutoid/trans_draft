@@ -4,9 +4,9 @@ Write Dumb Code
 
 ======
 
-The best way you can contribute to an open source project is to remove lines of code from it. We should endeavor to write code that a novice programmer can easilyeasily understand without explanation or that a maintainer can understand without significant time
+The best way you can contribute to an open source project is to remove lines of code from it. We should endeavor to write code that a novice programmer can easily understand without explanation or that a maintainer can understand without significant time
 
-为开源项目作贡献最好是能为他精简代码. 我们写出来的代码, 对于新手程序员来说应该无需注释就能容易的理解, 让后来的维护者也不需要耗费过多的精力.
+为开源项目作贡献最好的方式是为它减少代码. 我们应致力于这样的代码, 让新手程序员无需注释就能容易的理解, 让维护者也无需花费过多精力就能着手维护.
 
 As students we attempt increasingly challenging problems with increasingly sophisticated technologies. We first learn loops, then functions, then classes, etc.. We are praised as we ascend this hierarchy, writing longer programs with more advanced technology. We learn that experienced programmers use monads while new programmers use for loops.
 
@@ -18,7 +18,7 @@ Then we graduate and find a job or open source project to work on with others. W
 
 Ah ha! I can extend this project to do X! And I can use inheritance here! Excellent!
 
-哈哈, 我能扩展这个项目并实现某某功能啦, 我这里能用继承啦, 我太聪明啦！
+哈哈, 我能扩展这个项目，并实现某牛X功能啦, 我这里能用继承啦, 我太聪明啦！
 
 
 We implement this feature and feel accomplished, and with good reason. Programming in real systems is no small accomplishment. This was certainly my experience. I was excited to write code and proud that I could show off all of the things that I knew how to do to the world. As evidence of my historical love of programming technology, here is a [linear algebra language][1] built with a another meta-programming language. Notice that no one has touched this code in several years.
@@ -27,7 +27,7 @@ We implement this feature and feel accomplished, and with good reason. Programmi
 
 However after maintaining code a bit more I now think somewhat differently.
 
-然而在维护代码一段时间后,我觉得并非如此.
+然而在维护更多的代码后，我慢慢觉得并非如此。
 
   1. We should not seek to build software. Software is the currency that we pay to solve problems, which is our actual goal. We should endeavor to build as little software as possible to solve our problems.
   2. We should use technologies that are as simple as possible, so that as many people as possible can use and extend them without needing to understand our advanced techniques. We should use advanced techniques only when we are not smart enough to figure out how to use more common techniques.
@@ -42,15 +42,15 @@ Neither of these points are novel. Most people I meet agree with them to some ex
 
 ### Software is a cost
 
-软件需要投入
+软件是种投入
 
 Every line that you write costs people time. It costs you time to write it of course, but you are willing to make this personal sacrifice. However this code also costs the reviewers their time to understand it. It costs future maintainers and developers their time as they fix and modify your code. They could be spending this time outside in the sunshine or with their family.
 
-你写的每行代码都要花费人力。写代码当然是需要时间的，但你。。。然而这些代码在被审阅的时候也需要花时间理解，对于未来维护和开发人员来说，他们在维护和修改代码时同样要花费时间。。。。
+你写的每行代码都要花费人力。写代码当然是需要时间的，也许你会认为只是你个人在奉献，然而这些代码在被审阅的时候也需要花时间理解，对于未来维护和开发人员来说，他们在维护和修改代码时同样要花费时间。他们完全可以把这时间用来出去晒晒太阳，或者陪伴家人。
 
 So when you add code to a project you should feel meek. It should feel as though you are eating with your family and there isn't enough food on the table. You should take only what you need and no more. The people with you will respect you for your efforts to restrict yourself. Solving problems with less code is a hard, but it is a burden that you take on yourself to lighten the burdens of others.
 
-所以，当你向某个项目贡献代码时，须心怀谦恭。就像是，你正和你的家人进餐时，餐桌上却没有足够的食物，你只会索取你仅需的那部分，别人会对你的自我约束肃然起敬。以更少的代码去解决问题是很难的，你肩负了重担自然减轻了别人重负。
+所以，当你向某个项目贡献代码时，请心怀谦恭。就像是，你正和你的家人进餐时，餐桌上却没有足够的食物，你索取你所需的部分，别人对你的自我约束将肃然起敬。以更少的代码去解决问题是很难的，你肩负重任的同时自然减轻了别人的重负。
 
 ### Complex technologies are harder to maintain
 
@@ -78,7 +78,7 @@ If you are a good programmer then you don't need to demonstrate that you know co
 
 That being said, over-adherence to the "build things with simple tools" dogma can be counter productive. Often a recursive solution can be much simpler than a for-loop solution and often times using a Class or a Monad is the right approach. But we should be mindful when using these technologies that we are building for ourselves own system; a system with which others have had no experience.
 
-话虽如此， 过于遵循 “用简单的工具去构建”的教条也会降低生产力。经常地，用递归会比用循环解决问题更简单，用类或 monad 才是正确的途径。但是我们因该心想着用这些技术构建我们自己的系统，一个别人没有相关经验的系统。。。。
+话虽如此， 过于遵循 “用简单的工具去构建”的教条也会降低生产力。经常地，用递归会比用循环解决问题更简单，用类或 monad 才是正确的途径。但如果我们是构建一个别人毫无经验的系统时，或者可以另当别论。
 
 
 --------------------------------------------------------------------------------
