@@ -6,7 +6,7 @@ Write Dumb Code
 
 The best way you can contribute to an open source project is to remove lines of code from it. We should endeavor to write code that a novice programmer can easily understand without explanation or that a maintainer can understand without significant time
 
-为开源项目作贡献最好的方式是为它减少代码. 我们应致力于这样的代码, 让新手程序员无需注释就能容易的理解, 让维护者也无需花费过多精力就能着手维护.
+为开源项目作贡献最好的方式是为它减少代码. 我们应致力于写这样的代码, 它让新手程序员无需注释就能容易的理解, 让维护者也无需花费太多精力就能着手维护.
 
 As students we attempt increasingly challenging problems with increasingly sophisticated technologies. We first learn loops, then functions, then classes, etc.. We are praised as we ascend this hierarchy, writing longer programs with more advanced technology. We learn that experienced programmers use monads while new programmers use for loops.
 
