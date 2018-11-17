@@ -23,7 +23,7 @@ Ah ha! I can extend this project to do X! And I can use inheritance here! Excell
 
 We implement this feature and feel accomplished， and with good reason。 Programming in real systems is no small accomplishment。 This was certainly my experience。 I was excited to write code and proud that I could show off all of the things that I knew how to do to the world。 As evidence of my historical love of programming technology， here is a [linear algebra language][1] built with a another meta-programming language。 Notice that no one has touched this code in several years。
 
-我们实现了功能并以充分的理由觉得自己做到了。现实项目中的编程没有所谓小的实现。这当然是我个人的经验。以前我很开心的去写代码，并骄傲地向世界展示我所知道的事情。 有例为证，作为对某种编程技术的偏爱，这段嵌入了另一段元语言代码的 [一行algebra代码][1] 。我注意到多年以来一直没人愿意碰它。
+我们实现了某个小的功能，并以充分的理由觉得自己做到了。现实项目中的编程却不是针对某部分的功能而言。这当然是我个人的经验。以前我很开心的去写代码，并骄傲地向世界展示我所知道的事情。 有例为证，作为对某种编程技术的偏爱，这段嵌入了另一段元语言代码的 [一行algebra代码][1] 。我注意到多年以来一直没人愿意碰它。
 
 However after maintaining code a bit more I now think somewhat differently。
 
