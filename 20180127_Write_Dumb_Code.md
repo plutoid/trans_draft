@@ -27,7 +27,7 @@ We implement this feature and feel accomplished， and with good reason。 Progr
 
 However after maintaining code a bit more I now think somewhat differently。
 
-然而在维护更多的代码后，我的观点发生的变化。
+在维护了更多的代码后，我的观点发生了变化。
 
   1。 We should not seek to build software。 Software is the currency that we pay to solve problems， which is our actual goal。 We should endeavor to build as little software as possible to solve our problems。
   2。 We should use technologies that are as simple as possible， so that as many people as possible can use and extend them without needing to understand our advanced techniques。 We should use advanced techniques only when we are not smart enough to figure out how to use more common techniques。
@@ -38,7 +38,7 @@ However after maintaining code a bit more I now think somewhat differently。
 
 Neither of these points are novel。 Most people I meet agree with them to some extent， but somehow we forget them when we go to contribute to a new project。 The instinct to contribute by building and to demonstrate sophistication often take over。
 
-所有的这些例子都不只是听来的故事。我遇到的大部分人会认同某些部分，但不知为何，当我们向一个新项目贡献代码时又会忘掉这个初衷。直觉里，用复杂技术去构建的念头往往会占据上风。
+所有的这些例子都不是听来的故事。我遇到的大部分人会认同某些部分，但不知为什么，当我们向一个新项目贡献代码时又会忘掉这个初衷。直觉里用复杂技术去构建的念头往往会占据上风。
 
 ### Software is a cost
 
@@ -58,11 +58,11 @@ So when you add code to a project you should feel meek。 It should feel as thou
 
 As students， we demonstrate merit by using increasingly advanced technologies。 Our measure of worth depends on our ability to use functions， then classes， then higher order functions， then monads， etc。 in public projects。 We show off our solutions to our peers and feel pride or shame according to our sophistication。
 
-作为学生，逐渐能够使用高端技术显示自己的价值。这体现在，首先我们有能力在开源项目中使用函数，接着是类，然后是高阶函数，monads 等等。我们向同行显示自己的解决方案，同时因为自己所用技术的难易而常觉自豪或卑微。
+作为学生，逐渐使用高端技术证明了自己的价值。这体现在，首先我们有能力在开源项目中使用函数，接着是类，然后是高阶函数，monads 等等。我们向同行显示自己的解决方案，同时因为自己所用技术的难易而常觉自豪或卑微。
 
 However when working with a team to solve problems in the world the situation is reversed。 Now we strive to solve problems with code that is as simple as possible。 When we solve a problem simply we enable junior programmers to extend our solution to solve other problems。 Simple code enables others and boosts our impact。 We demonstrate our value by solving hard problems with only basic techniques。
 
-而在现实中，和团队去解决问题时，情况发生了反转。现在，我们致力于尽可能使用简单的代码去解决问题。我们用简单方式解决问题时，使新手程序员能够以此扩展并解决其他问题。简单的代码让别人容易上手，产生的效果立竿见影。我们藉以只用简单的技术去解决难题，从而展示自己的价值。
+而在现实中，和团队去解决问题时，情况发生了逆转。现在，我们致力于尽可能使用简单的代码去解决问题。简单方式解决问题使新手程序员能够以此扩展并解决其他问题。简单的代码让别人容易上手，产生的效果立竿见影。我们藉以只用简单的技术去解决难题，从而展示自己的价值。
 
 Look! I replaced this recursive function with a for loop and it still does everything that we need it to。 I know it's not as clever， but I noticed that the interns were having trouble with it and I thought that this change might help。
 
