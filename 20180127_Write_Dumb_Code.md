@@ -23,7 +23,7 @@ Ah ha! I can extend this project to do X! And I can use inheritance here! Excell
 
 We implement this feature and feel accomplished， and with good reason。 Programming in real systems is no small accomplishment。 This was certainly my experience。 I was excited to write code and proud that I could show off all of the things that I knew how to do to the world。 As evidence of my historical love of programming technology， here is a [linear algebra language][1] built with a another meta-programming language。 Notice that no one has touched this code in several years。
 
-我们以充分的理由实现了功能并并觉得自己做到了。  这当然是我个人的经验。 以前我很高兴写代码，并骄傲地向世界展示我所知道的事情。 有例为证，，作为对某种编程技术的偏爱，这段[一句话algebra代码] 嵌入了另一段元语言代码。请注意多年以来一直没人碰它。
+我们以充分的理由实现了功能并并觉得自己做到了。这当然是我个人的经验。 以前我很高兴写代码，并骄傲地向世界展示我所知道的事情。 有例为证，作为对某种编程技术的偏爱，这段嵌入了另一段元语言代码的 [一行algebra代码][1] 。我注意到多年以来一直没人愿意碰它。
 
 However after maintaining code a bit more I now think somewhat differently。
 
@@ -46,7 +46,7 @@ Neither of these points are novel。 Most people I meet agree with them to some 
 
 Every line that you write costs people time。 It costs you time to write it of course， but you are willing to make this personal sacrifice。 However this code also costs the reviewers their time to understand it。 It costs future maintainers and developers their time as they fix and modify your code。 They could be spending this time outside in the sunshine or with their family。
 
-你写的每行代码都要花费人力。写代码当然是需要时间的，也许你会认为只是你个人在奉献，然而这些代码在被审阅的时候也需要花时间理解，对于未来维护和开发人员来说，他们在维护和修改代码时同样要花费时间。他们完全可以把这时间用来出去晒晒太阳，或者陪伴家人。
+你写的每行代码都要花费人力。写代码当然是需要时间的，也许你会认为只是你个人在奉献，然而这些代码在被审阅的时候也需要花时间理解，对于未来维护和开发人员来说，他们在维护和修改代码时同样要花费时间。否则他们完全可以用这时间出去晒晒太阳，或者陪伴家人。
 
 So when you add code to a project you should feel meek。 It should feel as though you are eating with your family and there isn't enough food on the table。 You should take only what you need and no more。 The people with you will respect you for your efforts to restrict yourself。 Solving problems with less code is a hard， but it is a burden that you take on yourself to lighten the burdens of others。
 
@@ -66,7 +66,7 @@ However when working with a team to solve problems in the world the situation is
 
 Look! I replaced this recursive function with a for loop and it still does everything that we need it to。 I know it's not as clever， but I noticed that the interns were having trouble with it and I thought that this change might help。
 
-看， 我用循环替代了递归函数并且一样达到了我们的需求。 当然这并非多聪明的做法， 我注意到之前新手同事在这里会遇到麻烦，希望今后能有所改变。
+看， 我用循环替代了递归函数并且一样达到了我们的需求。 当然我明白这是不够聪明的做法， 但我注意到新手同事之前在这里会遇上麻烦，我觉得这改变将有所帮助吧。
 
 If you are a good programmer then you don't need to demonstrate that you know cool tricks。 Instead， you can demonstrate your value by solving a problem in a simple way that enables everyone on yyyurouuryouroyouryyour team to contribute in the future。
 
