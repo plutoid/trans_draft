@@ -6,11 +6,11 @@ Write Dumb Code
 
 The best way you can contribute to an open source project is to remove lines of code from it。 We should endeavor to write code that a novice programmer can easily understand without explanation or that a maintainer can understand without significant time
 
-为开源项目作贡献最好的方式是为它减少代码，我们应致力于写这样的代码， 它让新手程序员无需注释就能容易的理解，让维护者也无需花费太多精力就能着手维护。
+为开源项目作贡献最好的方式是为它减少代码，我们应致力于写出让新手程序员无需注释就能容易的理解的代码，让维护者也无需花费太多精力就能着手维护。
 
 As students we attempt increasingly challenging problems with increasingly sophisticated technologies。 We first learn loops， then functions， then classes， etc。。 We are praised as we ascend this hierarchy， writing longer programs with more advanced technology。 We learn that experienced programmers use monads while new programmers use for loops。
 
-作为学生，我们会更多地用复杂巧妙的技术去挑战新遇到的难题。首先我们会学习循环，然后是函数啊，类啊，等等。 当我们到达一定高的程度，能用更高级的技术写更长的程序，我们会因此受到称赞。 此刻我们发现老司机们用 monads 而新手们用循环。
+作为学生，我们会更多地用复杂巧妙的技术去挑战新遇到的难题。首先我们会学习循环，然后是函数啊，类啊，等等。 当我们到达一定高的程度，能用更高级的技术写更长的程序，我们会因此受到称赞。 此刻我们发现老司机们用 monads 而新手们用 loop 作循环。
 
 Then we graduate and find a job or open source project to work on with others。 We search for something that we can add， and implement a solution pridefully， using the all the tricks that we learned in school。
 
@@ -23,11 +23,11 @@ Ah ha! I can extend this project to do X! And I can use inheritance here! Excell
 
 We implement this feature and feel accomplished， and with good reason。 Programming in real systems is no small accomplishment。 This was certainly my experience。 I was excited to write code and proud that I could show off all of the things that I knew how to do to the world。 As evidence of my historical love of programming technology， here is a [linear algebra language][1] built with a another meta-programming language。 Notice that no one has touched this code in several years。
 
-我们以充分的理由实现了功能并并觉得自己做到了。这当然是我个人的经验。 以前我很高兴写代码，并骄傲地向世界展示我所知道的事情。 有例为证，作为对某种编程技术的偏爱，这段嵌入了另一段元语言代码的 [一行algebra代码][1] 。我注意到多年以来一直没人愿意碰它。
+我们实现了功能并以充分的理由觉得自己做到了。现实项目中的编程没有所谓小的实现。这当然是我个人的经验。以前我很开心的去写代码，并骄傲地向世界展示我所知道的事情。 有例为证，作为对某种编程技术的偏爱，这段嵌入了另一段元语言代码的 [一行algebra代码][1] 。我注意到多年以来一直没人愿意碰它。
 
 However after maintaining code a bit more I now think somewhat differently。
 
-然而在维护更多的代码后，我慢慢觉得并非如此。
+然而在维护更多的代码后，我的观点发生的变化。
 
   1。 We should not seek to build software。 Software is the currency that we pay to solve problems， which is our actual goal。 We should endeavor to build as little software as possible to solve our problems。
   2。 We should use technologies that are as simple as possible， so that as many people as possible can use and extend them without needing to understand our advanced techniques。 We should use advanced techniques only when we are not smart enough to figure out how to use more common techniques。
