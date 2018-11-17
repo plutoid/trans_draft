@@ -74,11 +74,11 @@ If you are a good programmer then you don't need to demonstrate that you know co
 
 ### But moderation， of course
 
-但要保持节制
+当然，也请保持节制
 
 That being said， over-adherence to the "build things with simple tools" dogma can be counter productive。 Often a recursive solution can be much simpler than a for-loop solution and often times using a Class or a Monad is the right approach。 But we should be mindful when using these technologies that we are building for ourselves own system; a system with which others have had no experience。
 
-话虽如此， 过于遵循 “用简单的工具去构建”的教条也会降低生产力。经常地，用递归会比用循环解决问题更简单，用类或 monad 才是正确的途径。但如果我们是构建一个别人毫无经验的系统时，或者可以另当别论。
+话虽如此， 过于遵循 “用简单的工具去构建”的教条也会降低生产力。经常地，用递归会比用循环解决问题更简单，用类或 monad 才是正确的途径。不过有两种情况另当别论,一是只是只为满足自我而创建的系统，或者我们构建的是别人毫无经验的系统。
 
 
 --------------------------------------------------------------------------------
