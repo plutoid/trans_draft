@@ -4,6 +4,7 @@ Sysadmin 101: Troubleshooting
 I typically keep this blog strictly technical, keeping observations, opinions and the like to a minimum. But this, and the next few posts will be about basics and fundamentals for starting out in system administration/SRE/system engineer/sysops/devops-ops (whatever you want to call yourself) roles more generally.
 Bear with me!
 
+一般我会尽量保持这个博客在严肃的技术性上，持续观察，观点和自己的爱好。相对这点而言，后面几篇将会更多关注系统管理/ SRE /系统工程师/系统操作/开发运维（不管你自己怎么称呼这些个吧）几个角色。
 
 
 "My web site is slow"
@@ -61,6 +62,7 @@ Take all steps you can to try and reproduce the problem. When you can reproduce,
 Now, for issues caused by solar flares and clients running exclusively on OS/2, it's not always feasible to reproduce. But your first port of call should be to at least try! In the very beginning, all you know is "X thinks their website is slow". For all you know at that point, they could be tethered to their GPRS mobile phone and applying Windows updates. Delving any deeper than we already have at that point is, again, a waste of time.
 
 Attempt to reproduce!
+尝试去重现吧，少年！
 
 ### Check the log!
 ### 检查日志！
