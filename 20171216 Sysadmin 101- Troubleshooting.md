@@ -117,6 +117,7 @@ It might not be any of those particular things, but I promise you, you'll notice
 
 If you're only going to take one thing from this section, let it be; learn to use `strace`! **Really** learn it, read the whole man page. Don 't even skip the HISTORY section. `man` each syscall you don't already know what it does. 98% of troubleshooting sessions ends with strace.
 
+如果你只是
 --------------------------------------------------------------------------------
 
 via: http://northernmost.org/blog/troubleshooting-101/index.html
