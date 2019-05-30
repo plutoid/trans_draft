@@ -1,9 +1,13 @@
 Sysadmin 101: Troubleshooting
+系统管理 101: 排错
 ======
 I typically keep this blog strictly technical, keeping observations, opinions and the like to a minimum. But this, and the next few posts will be about basics and fundamentals for starting out in system administration/SRE/system engineer/sysops/devops-ops (whatever you want to call yourself) roles more generally.
 Bear with me!
 
+
+
 "My web site is slow"
+“我的网页慢啊”
 
 I just picked the type of issue for this article at random, this can be applied to pretty much any sysadmin related troubleshooting. It's not about showing off the cleverest oneliners to find the most information. It's also not an exhaustive, step-by-step "flowchart" with the word "profit" in the last box. It's about general approach, by means of a few examples.
 The example scenarios are solely for illustrative purposes. They sometimes have a basis in assumptions that doesn't apply to all cases all of the time, and I'm positive many readers will go "oh, but I think you will find…" at some point.
@@ -21,11 +25,13 @@ Having worked in support, or within a support organization for over a decade, th
 
 
 "I saw this issue once, and then it was because X. So I'm going to try to fix X again, it might work".
+“我之前见过这个问题，是因为某原因 X 。所以我打算把这个问题 X 修掉， 它会好的。”
 
 This wastes a lot of time, and leads you down a wild goose chase. In the dark. Wearing greased mittens.
 InnoDB's buffer pool may well be at 100% utilization, but that's just because there are remnants of a large one-off report someone ran a while back in there. If there are no evictions, you've just wasted time.
 
 ### Quick side-bar before we start
+### 在我们开始之前
 
 At this point, I should mention that while it's equally applicable to many roles, I'm writing this from a general support system adminstrator's point of view. In a mature, in-house organization or when working with larger, fully managed or "enterprise" customers, you'll typically have everything instrumented, measured, graphed, thresheld (not even word) and alerted on. Then your approach will often be rather different. We're going in blind here.
 
@@ -47,7 +53,7 @@ There's little point to carrying on if you have 2000 messages from your RAID con
 This doesn't have to take more than half a minute. If nothing catches your eye - continue.
 
 ### Reproduce
-
+### 重现
 If there indeed is a problem somewhere, and there's no low hanging fruit to be found;
 
 Take all steps you can to try and reproduce the problem. When you can reproduce, you can observe. **When you can observe, you can solve.** Ask the person reporting the issue what exact steps to take to reproduce the issue if it isn 't already obvious or covered by the first section.
@@ -57,6 +63,7 @@ Now, for issues caused by solar flares and clients running exclusively on OS/2, 
 Attempt to reproduce!
 
 ### Check the log!
+### 检查日志！
 
 It saddens me that I felt the need to include this. But I've seen escalations that ended mere minutes after someone ran `tail /var/log/..` Most *NIX tools these days are pretty good at logging. Anything blatantly wrong will manifest itself quite prominently in most application logs. Check it.
 
@@ -85,6 +92,7 @@ Our example is a slow web site, but this is equally applicable to almost any iss
 Each one of these steps takes mere seconds each, far quicker than implementing most "potential" fixes.
 
 ### Observe / isolate
+### 观察 / 隔离
 
 By now, you may already have stumbled across the problem by virtue of being unable to reproduce when you removed a particular component.
 
@@ -98,7 +106,8 @@ Once you've come this far, you rarely end up having to break out profilers or de
 
 [`strace`][2] is often a very good place to start.
 You might notice that the application is stuck on a particular `read()` call on a socket file descriptor connected to port 3306 somewhere. You'll know what to do.
-Move on to MySQL and start from the top again. Low hanging fruit: "Waiting_for comic core.md Dict.md lctt2014.md lctt2016.md LCTT翻译规范.md LICENSE Makefile published README.md sign.md sources translated 选题模板.txt 中文排版指北.md lock", deadlocks, max_connections.. Move on to: All queries? Only writes? Only certain tables? Only certain storage engines?…
+
+Move on to MySQL and start from the top again. Low hanging fruit: “Waiting_for * lock”, deadlocks, max_connections.. Move on to: All queries? Only writes? Only certain tables? Only certain storage engines?…
 
 You might notice that there's a `connect()` to an external API resource that takes five seconds to complete, or even times out. You'll know what to do.
 
